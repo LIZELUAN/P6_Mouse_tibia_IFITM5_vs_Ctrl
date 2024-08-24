@@ -1,4 +1,4 @@
-library(patchwok)
+library(patchwork)
 source("functs.R")
 load("All.Rdata")
 library(ggpubr)
