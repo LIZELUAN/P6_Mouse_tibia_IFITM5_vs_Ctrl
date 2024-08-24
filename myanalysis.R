@@ -8,7 +8,7 @@ sce_cca <- sce_cca %>%
 
 
 
-DimPlot(sce_cca, arg=1, pt.size=0.5, label.size = 5) + theme(aspect.ratio = 1) + scale_col_manual(values=cols25())
+DimPlot(sce_cca, pt.size=0.5, label.size = 5) + theme(aspect.ratio = 1) + scale_col_manual(values=cols25())
 
 
 
